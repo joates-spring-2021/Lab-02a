@@ -1,4 +1,4 @@
-# CPSC 223p - Lab 01
+# CPSC 223p - Lab 02
 Let's write some short programs that manipulate strings and lists.
 
 ## Objectives
@@ -8,13 +8,13 @@ Let's write some short programs that manipulate strings and lists.
 # Instructions
 Write a program for each exercise sub-directory. Each exercise subdirectory is prefixed with the string `part-`.
 
-Every file that you submit must have a header. On the file that contains the main function, start the file with `#!/usr/bin/env python3`. Change the comment line (the one starting with ```#```) to state your full name. On the next line, start a new comment and state which section of CPSC 223p you are enrolled in. On the next line, start a new comment and state today's date. On the next line, start a new comment and state your CSUF email address. On the next line, start a docstring and provide a short description of the program you are writing. For example, if your name is Tuffy Titan and you are in CPSC 223p-01, the comment may look something like
+Every file that you submit must have a header. On the file that contains the main function, start the file with `# -*- coding: utf-8 -*-`. Change the comment line (the one starting with ```#```) to state your full name. On the next line, start a new comment and state which section of CPSC 223p you are enrolled in. On the next line, start a new comment and state today's date. On the next line, start a new comment and state your CSUF email address. On the next line, start a docstring and provide a short description of the program you are writing. For example, if your name is Tuffy Titan and you are in CPSC 223p-01, the comment may look something like
   ```
-  #!/usr/bin/env python3
+  # -*- coding: utf-8 -*-
   #
   # Tuffy Titan
   # CPSC 223p-01
-  # 2050-01-01
+  # 2021-02-01
   # tuffy.titan@csu.fullerton.edu
   #
   """
@@ -27,9 +27,7 @@ Please adhere to the [Google Python coding style](https://google.github.io/style
 # Rubric
 Each exercise is worth 5 points. There is a total of 10 points possible. Your program must compile, in other words be syntactically correct, before it is graded. Submissions that do not compile shall be assigned a zero grade. 
 
-For each problem:
-* Functionality (3 points): Your submission shall be assessed for the appropriate constructs and strategies to address the exercise.
-
-* Compilation (1 point): Your submission shall compile with no warnings. Compile with errors results in a zero grade.
+For each part:
+* Functionality (4 points): Your submission shall be assessed for the appropriate constructs and strategies to address the exercise.
 
 * Readability (1 point): Your submission shall be assessed by checking whether your code passess the style and format check, as well as how well it follows the proper naming conventions, and internal documentation guidelines. Git log messages are an integral part of how readable your project is.
